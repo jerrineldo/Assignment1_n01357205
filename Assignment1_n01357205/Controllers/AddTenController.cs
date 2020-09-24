@@ -9,5 +9,12 @@ namespace Assignment1_n01357205.Controllers
 {
     public class AddTenController : ApiController
     {
+        //GET api/AddTen/5
+        //input : integer
+        //output: Returns 10 more than the integer input
+        public int Get(int id)
+        {
+            return id + 10;
+        }
     }
 }
